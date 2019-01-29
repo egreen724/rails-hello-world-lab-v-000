@@ -55,3 +55,9 @@ Started GET "/" for 143.215.22.82 at 2019-01-29 19:51:03 +0000
 Processing by Rails::WelcomeController#index as HTML
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.11/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
 Completed 200 OK in 28ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 143.215.22.82 at 2019-01-29 19:51:09 +0000
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello_world.erb within layouts/application (0.4ms)
+Completed 200 OK in 416ms (Views: 415.1ms | ActiveRecord: 0.0ms)
